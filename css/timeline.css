@@ -1,7 +1,6 @@
 
 .timeline {
   margin-top: 40px;
-  /*margin-bottom: 40px;*/
   position: relative;
   display:grid;
 }
@@ -42,6 +41,14 @@
   letter-spacing: 2px;
   color:crimson;
   text-shadow: 1px 1px 25px #ff0000;
+}
+
+.timeline-content .company_name {
+  font-size: 12px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+  color:#00b7c7;
 }
 
 @media only screen and (min-width: 768px) {
